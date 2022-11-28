@@ -1,0 +1,97 @@
+.search-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.searchInput-books {
+    width: 300px;
+    border:0;
+    box-shadow: 0px 5px 10px 1px var(--color-3);
+    border-radius: 8px;
+}
+
+#btnGoToAdd {
+    font-size: 13px;
+	width: 150px;
+	padding: 2px;
+	background-color: var(--color-5);
+	border-radius: 8px;
+	box-shadow: 0px 5px 10px 1px var(--color-3);
+    cursor:pointer;
+}
+
+#btnGoToAdd:hover {
+	background-color: var(--color-4);
+	transition: 1s;
+}
+.title-Div {
+    padding:20px;
+}
+
+#listTitle {
+    text-align: center;
+    font-size:30px;
+    color:var(--color-5);
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.table-books {
+    padding: 10px;
+    width:80%; 
+    border-collapse: collapse;
+    border: solid var(--color-2);
+    font-size: 16px;
+    background-color: var(--color-4);
+    border-radius: 10px;
+}
+
+.table-books > tbody > tr > td {
+    border: solid var(--color-2);
+    border-radius: 10px;
+    padding:10px;
+}
+
+.table-books > tbody > tr > td > button{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-5);
+    box-shadow: none;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+#edit {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#edit > input {
+    border:0;
+    box-shadow: 0px 5px 10px 1px var(--color-3);
+    border-radius: 8px;
+}
+
+#edit > button {
+    cursor: pointer;
+    width: 70px;
+    background-color: var(--color-5);
+    box-shadow: none;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+#edit > button:hover {
+	background-color: var(--color-4);
+	transition: 1s;
+}

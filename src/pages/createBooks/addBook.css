@@ -1,0 +1,45 @@
+#addTitle {
+    text-align: center;
+    font-size:30px;
+    color:var(--color-5);
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+main{
+    background:var(--color-2);
+    min-height: 94vh;
+}
+
+form {
+    width: 70%;
+    height:auto;
+    padding: 20px;
+    background:var(--color-4);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 1px var(--color-3);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+fieldset {
+    border: none;
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input, textarea {
+    padding: 3px;
+    justify-content: center;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
